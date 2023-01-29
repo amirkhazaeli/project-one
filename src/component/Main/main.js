@@ -34,7 +34,32 @@ function Main() {
 
             </div>
             <div className='main-bottom'>
+                <div className='item'>
+                    <img src="images\image-top-laptops.jpg" alt=""/>
+                    <div className='item-info'>
+                        <h1>01</h1>
+                        <h2>Top 10 Laptops of 2022</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
+                    </div>
+                </div>
 
+                <div className='item'>
+                    <img src="images\image-retro-pcs.jpg" alt=""/>
+                    <div className='item-info'>
+                        <h1>02</h1>
+                        <h2>The Growth of Gaming</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
+                    </div>
+                </div>
+
+                <div className='item'>
+                    <img src="images\image-gaming-growth.jpg" alt=""/>
+                    <div className='item-info'>
+                        <h1>03</h1>
+                        <h2>Reviving Retro PCs</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
+                    </div>
+                </div>
             </div>
         </div>
     );

@@ -79,3 +79,32 @@
   color: white;
   margin-top: 40px;
 }
+
+.main-bottom{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.main-bottom .item{
+  display: flex;
+  align-items: center;
+}
+.main-bottom .item img{
+  height: 100px;
+}
+.main-bottom .item .item-info{
+  padding-left: 10px;
+  line-height: 20px;
+  
+}
+.main-bottom .item .item-info h1{
+  font-size: 30px;
+  color: rgb(117, 115, 115);
+}
+.main-bottom .item .item-info h2{
+ padding-top: 10px;
+}
+.main-bottom .item .item-info p{
+ font-size: 15px;
+ color: rgb(117, 115, 115);
+}
