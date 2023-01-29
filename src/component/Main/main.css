@@ -1,0 +1,81 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.main-top {
+    display: flex;
+
+}
+
+.main-top .sec-right {
+    background-color: rgb(21, 21, 46);
+    color: white;
+    width: 30%;
+}
+
+.main-top .sec-right p {
+    margin: 20px;
+    padding: 20px 0px 20px 0px;
+    color: rgb(163, 163, 163);
+    font-size: 15px;
+    border-bottom: 1px solid rgb(124, 129, 138);
+    line-height: 25px;
+}
+#no-border{
+    border: none;
+}
+.main-top .sec-right p h1 {
+    color: white;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+.main-top .sec-right p h1:hover{
+    color: rgb(241, 134, 72);
+    cursor: pointer;
+}
+.main-top .sec-right #titr {
+    color: rgb(241, 134, 72);
+    font-size: 40px;
+}
+
+.main-top .sec-left {
+    padding-right: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-top .sec-left img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.main-top .sec-left .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+}
+.main-top .sec-left .info h1{
+    font-size: 50px;
+    line-height: 50px;
+}
+.main-top .sec-left .info div{
+    padding-left: 40px;
+}
+.main-top .sec-left .info div p{
+   font-size: 15px;
+   line-height: 20px;
+   color: rgb(114, 109, 109);
+}
+.main-top .sec-left .info div button{
+  padding: 10px;
+  width: 200px;
+  background-color: rgb(21, 21, 46);
+  color: white;
+  margin-top: 40px;
+}

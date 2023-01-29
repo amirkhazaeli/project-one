@@ -1,8 +1,11 @@
 .Navbar {
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content:space-between;
     padding-top: 40px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .Navbar h1 {
@@ -19,4 +22,8 @@
     color: rgb(105, 104, 104);
     padding: 15px;
     font-size: 20px;
+}
+.Navbar ul li:hover{
+    cursor: pointer;
+    color: rgb(218, 90, 15);
 }
