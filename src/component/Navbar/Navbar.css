@@ -1,0 +1,22 @@
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding-top: 40px;
+}
+
+.Navbar h1 {
+    font-size: 50px;
+    font-weight: bolder ;
+}
+
+.Navbar ul {
+    display: flex;
+    
+}
+
+.Navbar ul li {
+    color: rgb(105, 104, 104);
+    padding: 15px;
+    font-size: 20px;
+}
